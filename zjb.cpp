@@ -114,7 +114,7 @@ for (int i =0: i<256: i++)
     imshow ("总", binBrightImage_light);
     waitKey(1):
  
-    vectorsvector<Point>> lightContours;
+    vector<vector<Point>> lightContours;
     vector<LightDescriptor> lightInfos;
     findContours(binBrightImage_light.clone(), lightContours,RETR_EXTERNAL,CHAIN_APPROX_SIMPLE);
     for (int i= 0; i<lightContours.size() ; i++)
