@@ -1,7 +1,7 @@
-#include sopencv2/opencv .hpp>
+#include sopencv2/opencv.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
-#include sopencv2/img codecs .hpp>
+#include <opencv2/imgcodecs.hpp>
 #include <iostream>
 
 using namespace cv;
